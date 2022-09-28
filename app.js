@@ -33,7 +33,7 @@ function clickEventHandler()
     .then(response => response.json())
     .then(json =>
         {
-            var translatedtext = json.contents.tanslated;
+            var translatedtext = json.contents.translated;
             outputresult.innerText = translatedtext;
         
         }
