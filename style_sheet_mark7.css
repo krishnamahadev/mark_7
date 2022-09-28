@@ -1,0 +1,56 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+
+body
+{
+    font-family: 'Inter Tight', sans-serif;
+    /* margin: 25px; */
+    margin: auto;
+}
+
+
+.center-container
+{
+    max-width: 900px;
+    /* text-align: center; */
+    margin: auto;
+    /* background-color: burlywood; */
+    /* the above color will not color the entire section */
+}
+
+.click
+{
+    padding: 3 rem;
+    /* align-items: center; */
+}
+
+.Output
+{
+    text-align: center;
+}
+
+.section{
+    padding: 3rem;
+}
+.section h1
+{
+    text-align: center;
+    /* padding: 2rem; */
+}
+
+.ow
+{
+    background-color:bisque;
+}
+
+.footer
+{
+    background-color: bisque;
+    padding: 3rem;
+    text-align: center;
+    /* color: white; */
+    /* border-top-right-radius: 1rem; */
+
+}

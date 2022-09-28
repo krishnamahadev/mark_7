@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component library</title>
+
+
+    <!-- 1st way of doing CSS -->
+<!-- 
+<style>
+    body {
+        color: red;
+    }
+</style> -->
+
+
+
+<!-- 3rd way of doing CSS -->
+<!-- external link -->
+<link rel="stylesheet" href="/style_v3.css"/> 
+
+</head>
+
+
+
+
+<!-- <link rel="styleßsheet" href="style.css"/> -->
+
+
+
+<body>
+    <!-- this is the 2nd way of doing CSS. Including attribute style -->
+   <!-- <h1 style="color: red;"> Welcome to Krishna's component library</h1>  -->
+
+   <h1 >Welcome to Krishna's component library</h1>
+   <p>I am creating a personal library which will make all my projects look goood</p>
+   <p>Note : some of the tags have meaning and some dont. It is wise that we use tags that has meaning.
+             p tag is used to add a paragraph.
+   </p>
+
+
+   <p>this paragraph will have a <strong>bold</strong> text</p>
+   <hr>
+
+   <h2>@typography</h2>
+
+   <h1>this is the biggest heading</h1>
+   <h2>this is the second biggest heading</h2>
+   <small>this is the smallest heading</small>
+   <p>this is normal text</p>
+
+   <hr>
+
+   <h2>@container</h2>
+   <p>Note : container hold data. When we use container or relevant tags, accessibility tree is created. 
+             This will help especially blind children, becasue screen header will read the important tags.
+   </p>
+
+   <h3>fluid container</h3>
+   <div class = "container container-fluid">This is a fluid container and will go till the end of the page</div>
+
+
+   <h3>centered container</h3>
+   <div class = "container container-centered">this is a centered container and will go till specified width. Adding more details to check it is centered properly</div>
+
+   <hr>
+
+
+   <h2>@links</h2>
+   
+   <a href="https://google.com" class="link">krishna</a>
+
+   <a href="/" class = "link link-primlink">primary link</a>
+   <a href="/" class = "link link-seclink">secondary link</a>
+
+
+   <p>Note : Block - when you write and the space taken is entire row
+             Inline - when you write and the space taken is for limited to its length
+   </p>
+
+   <hr>
+
+<h2>@lists</h2>
+
+<div>here is my list using div tag
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+</div>
+
+<p>Note : Using div to create list is not right. Because it cannot tell the browser that it is a list</p>
+
+<h3>ordered list</h3>
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+
+</ol>
+
+
+
+<h3>unordered list</h3>
+<ul class="non-bullet">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+
+</ul>
+
+
+<h3>unordered inline list</h3>
+<ul class = "non-bullet">
+<li class = "inline-list">Item 1</li>
+<li class = "inline-list">Item 2</li>
+<li class = "inline-list">Item 3</li>
+</ul>
+
+<h3>reverse ordered list</h3>
+<ol reversed>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+
+
+<hr>
+
+<h2>@nav</h2>
+
+<nav class="navigation-container">
+    <div class="nav-brand">I am a developer</div>
+    <ul class="list-non-bullet-nav-pills">
+        <li class="inline-list"><a class = "link link-active" href="/">home</a></li >
+        <li  class="inline-list"><a class = "link link-active"href="/">projects</a></li >
+        <li  class="inline-list"><a class = "link link-active" href="/">blogs</a></li>
+    </ul>
+</nav>
+
+<hr>
+
+<h2>@header</h2>
+
+<header class="hero">
+    <img class = "hero-img"src="/images/hero_image_maroon.svg">
+    <h1 class="hero-heading">heading insider hero</h1> 
+<p>Note : PNG - blog posts/social media ; SVG - Website and projects </p>
+
+
+<!-- <header>
+    <img src="https://twitter.com/Krishhnaaaaaaa/header_photo.png">
+    <h1>heading insider hero</h1>
+</header> -->
+
+</header>
+<hr>
+
+<h2>@section</h2>
+
+<section class="section">
+    <div class="container-centered">
+    <h1>white section</h1>
+    <p>This will have white background</p>
+    </div>
+</section>
+
+<section class="section ow">
+    <div class="container-centered">
+    <h1>off white section</h1>
+    <p>This will have grey background</p>
+    </div>
+</section>
+
+<hr>
+
+
+<h2>@footer</h2>
+<footer class="footer">
+    <div class="footer-header">small heading inside footer</div>
+    <ul class="non-bullet">
+        <li class="inline-list"> <a class = "link non-bullet" href="/"> social one </a></li>
+        <li class="inline-list"> <a class = "link non-bullet" href="/"> social two </a></li>
+        <li class="inline-list"> <a class = "link non-bullet" href="/"> social three </a></li>
+       
+    </ul>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<div style="height: 30vh;"></div>
+
+</body> 
+</html> -->
